@@ -22,5 +22,4 @@ This project is a responsive website for **Business Cafe**, showcasing its works
 
 ---
 
-## File Structure
-# Add your file structure details here
+
