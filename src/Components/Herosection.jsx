@@ -6,13 +6,13 @@ import Buttons from './Buttons/Buttons.jsx';
 const Herosection = () => {
   return (
    <div>
-     <div className='inline-flex gap-240  bg-white px-5 py-5 '>
+     <div className='flex flex-col md:flex-row justify-between items-center bg-white px-5 py-5'>
         <div className='flex items-center gap-2'>
             <RiDashboardLine className='text-primaryColor-500 text-2xl'/>
-            <h1 className='text-2xl'>Business<span className='text-primaryColor-500'>Cafe</span></h1>
+            <h1 className='text-xl md:text-2xl'>Business<span className='text-primaryColor-500'>Cafe</span></h1>
             </div>
-        <div>
-            <ul className='inline-flex  gap-10 font-medium'>
+        <div className='mt-4 md:mt-0'>
+            <ul className='flex flex-col md:flex-row gap-4 md:gap-10 font-medium'>
                 <li className='text-primaryColor-800 '>Home</li>
                 <li>Space</li>
                 <li>About</li>
@@ -22,11 +22,11 @@ const Herosection = () => {
         </div>
       
     </div>
-    <div className='flex flex-col items-center text-center  py-40 ' style={{backgroundImage: `url(${cafestudying})`, backgroundSize:'cover',
+    <div className='flex flex-col items-center text-center py-20 px-5 sm:py-40' style={{backgroundImage: `url(${cafestudying})`, backgroundSize:'cover',
      backgroundPosition:'center',backgroundRepeat:'no-repeat'}}>
-        <h4 className='text-white font-normal'>The Best Workspace in Kigali</h4><br />
-        <p className='font-bold  text-white text-3xl'  ><span className='text-primaryColor-500'>Professional</span>, Creative, <br /> Flexible, Scalable <span className='text-primaryColor-500'>Workspace <br /></span></p><br />
-        <p className='items-center text-left text-white/80 font-normal text-md '>Discover your ideal worspace with us. work smart, not hard in our fully-equipped office <br/>spaces. Elavate your business with flexible solutions tailored to your needs find your perfect<br/> office toay!</p>
+        <h4 className='text-white font-normal text-sm sm:text-base md:text-lg'>The Best Workspace in Kigali</h4><br />
+        <p className='font-bold  text-white text-2xl sm:text-3xl md:text-4xl'  ><span className='text-primaryColor-500'>Professional</span>, Creative, <br /> Flexible, Scalable <span className='text-primaryColor-500'>Workspace <br /></span></p><br />
+        <p className='items-center text-left text-white/80 font-normal text-sm sm:text-base md:text-lg  max-w-lg  '>Discover your ideal worspace with us. work smart, not hard in our fully-equipped office <br/>spaces. Elavate your business with flexible solutions tailored to your needs find your perfect<br/> office toay!</p>
 
         <Buttons>Explore</Buttons> 
         

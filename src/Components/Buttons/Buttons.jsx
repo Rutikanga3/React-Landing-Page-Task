@@ -9,7 +9,7 @@ function Buttons({
     type = "button",
     variant='primary',
     onClick,
-    className = `px-4 py-2 rounded-md font-semibold bg-primaryColor-500 text-white hover:bg-primaryColor-600`,
+    className = `px-4 py-2 rounded-md font-semibold bg-primaryColor-500 text-white hover:bg-primaryColor-600 sm:px-6 sm:py-3 sm:text-base md:px-8 md:py-4 md:text-lg`,
     children,
 
 }) {

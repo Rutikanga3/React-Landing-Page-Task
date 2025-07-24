@@ -5,27 +5,27 @@ import privateplace from '../../assets/privateplace.jpeg'
 
 function Cards() {
   return (
-    <div className='grid grid-cols-3  gap-2 '>
-        <div className='border-2 rounded-md  m-10 w-86 pb-12 shadow-2xs border-primaryColor-50'>
-            <img src={officeforrent} alt="office for rent Image" className='w-86 h-60 object-cover mx-auto pb-5 '/>
-            <h3 className='text-primaryColor-500 font-bold text-md text-center'>Renting Offices</h3>
-            <hr className='border-t-3 border-primaryColor-500 w-15 rounded-md items-center mx-auto '/>
-            <p className='text-center pt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam?</p>
-            <h5 className='items-center text-center text-primaryColor-500 font-bold pt-5'><span className='text-primaryColor-500 '>Learn More</span></h5>
+    <div className='border-2 rounded-md mx-auto my-2 w-full max-w-sm pb-6 shadow-md border-primaryColor-50 '>
+        <div className='border-2 rounded-md  m-4 w-full max-w-sm pb-6 shadow-md border-primaryColor-50 overflow-x-hidden'>
+            <img src={officeforrent} alt="office for rent Image" className='w-full h-60 object-cover rounded-t-md '/>
+            <h3 className='text-primaryColor-500 font-bold text-lg text-center mt-4'>Renting Offices</h3>
+            <hr className='border-t-2 border-primaryColor-500 w-16 mx-auto mt-2 '/>
+            <p className='text-center px-4 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam?</p>
+            <h5 className='items-center text-center text-primaryColor-500 font-bold mt-4'><span className='text-primaryColor-500 cursor-pointer hover:underline '>Learn More</span></h5>
         </div>
-        <div className='border-2 rounded-md  m-10 w-86 pb-12 shadow-2xs border-primaryColor-50'>
-            <img src={coffee} alt="office for rent Image" className='w-86 h-60 object-cover mx-auto pb-5 '/>
-            <h3 className='text-primaryColor-500 font-bold text-md text-center'>Coffee Shop</h3>
-            <hr className='border-t-3 border-primaryColor-500 w-13 rounded-md items-center mx-auto '/>
-            <p className='text-center pt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam?</p>
-            <h5 className='items-center text-center text-primaryColor-500 font-bold pt-5'><span className='text-primaryColor-500 '>Learn More</span></h5>
+       <div className='border-2 rounded-md mx-auto my-2 w-full max-w-sm pb-6 shadow-md border-primaryColor-50 overflow-x-hidden'>
+            <img src={coffee} alt="office for rent Image" className='w-full h-60 object-cover rounded-t-md '/>
+            <h3 className='text-primaryColor-500 font-bold text-lg text-center mt-4'>Coffee Shop</h3>
+            <hr className='border-t-2 border-primaryColor-500 w-16 mx-auto mt-2 '/>
+            <p className='text-center px-4 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam?</p>
+            <h5 className='items-center text-center text-primaryColor-500 font-bold mt-4'><span className='text-primaryColor-500 cursor-pointer hover:underline '>Learn More</span></h5>
         </div>
-        <div className='border-2 rounded-md  m-10 w-86 pb-12 shadow-2xs border-primaryColor-50'>
-            <img src={privateplace} alt="office for rent Image" className='w-86 h-60 object-cover mx-auto pb-5 '/>
-            <h3 className='text-primaryColor-500 font-bold text-md text-center'>Private event Space</h3>
-            <hr className='border-t-3 border-primaryColor-500 w-15 rounded-md items-center mx-auto '/>
-            <p className='text-center pt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam?</p>
-            <h5 className='items-center text-center text-primaryColor-500 font-bold pt-5'><span className='text-primaryColor-500 '>Learn More</span></h5>
+        <div className='border-2 rounded-md mx-auto my-2 w-full max-w-sm pb-6 shadow-md border-primaryColor-50 overflow-x-hidden'>
+            <img src={privateplace} alt="office for rent Image" className='w-full h-60 object-cover rounded-t-md '/>
+            <h3 className='text-primaryColor-500 font-bold text-lg text-center mt-4'>Private Event Space</h3>
+            <hr className='border-t-2 border-primaryColor-500 w-16 mx-auto mt-2 '/>
+            <p className='text-center px-4 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quibusdam?</p>
+            <h5 className='items-center text-center text-primaryColor-500 font-bold mt-4'><span className='text-primaryColor-500 cursor-pointer hover:underline '>Learn More</span></h5>
         </div>
       
     </div>
