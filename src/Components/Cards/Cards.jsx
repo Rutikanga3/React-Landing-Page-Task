@@ -5,7 +5,7 @@ import privateplace from '../../assets/privateplace.jpeg'
 
 function Cards() {
   return (
-    <div className='border-2 rounded-md mx-auto my-2 w-full max-w-sm pb-6 shadow-md border-primaryColor-50 '>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 '>
         <div className='border-2 rounded-md  m-4 w-full max-w-sm pb-6 shadow-md border-primaryColor-50 overflow-x-hidden'>
             <img src={officeforrent} alt="office for rent Image" className='w-full h-60 object-cover rounded-t-md '/>
             <h3 className='text-primaryColor-500 font-bold text-lg text-center mt-4'>Renting Offices</h3>

@@ -8,7 +8,7 @@ const Inputs = ({ type = 'text', name="", placeholder = '', value, onChange, cla
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      className={`border border-primaryColor-500 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-primaryColor-500  ${className}`}
+      className={`border border-primaryColor-500 p-2 rounded-md   ${className}`}
     />
   )
 }

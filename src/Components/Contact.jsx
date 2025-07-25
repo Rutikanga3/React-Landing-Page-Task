@@ -106,15 +106,18 @@ function Contact() {
             <h1 className='font-extrabold text-3xl sm:text-3xl pb-5'>Send a Message</h1>
             <form action= '' className='flex flex-col gap-4' onSubmit={handleSubmit}>
                 <Inputs type='text' name='name' placeholder='Name' value={formData.name}  onChange={handleChange}
-                  className={`text-grey`}/>
+                  className={`text-grey ${errors.name ? 'focus:ring-red-500 border-red-500' : 'focus:ring-primaryColor-500'}`}/>
                   {errors.name && <span className='text-sm text-red-600  '>{errors.name}</span>}
-                <Inputs type='Email' name='email' placeholder='Email'  value={formData.email} onChange={handleChange}   className={`text-grey`}/>
+                <Inputs type='Email' name='email' placeholder='Email'  value={formData.email} onChange={handleChange}   className={`text-grey ${errors.name ? 'focus:ring-red-500 border-red-500' : 'focus:ring-primaryColor-500'}`}/>
                 {errors.email && <span className='text-sm text-red-600  '>{errors.email}</span>}
                 
-                <Inputs type='text' name='subject' placeholder='Subject'  value={formData.subject} onChange={handleChange}  className={`text-grey`}/>
+                <Inputs type='text' name='subject' placeholder='Subject'  value={formData.subject} onChange={handleChange}  className={`text-grey ${errors.name ? 'focus:ring-red-500 border-red-500' : 'focus:ring-primaryColor-500'}`}/>
+                 {errors.subject && <span className='text-sm text-red-600  '>{errors.subject}</span>}
                 <textarea placeholder='  Your Message'  value={formData.message} name="message" onChange={
                     handleChange
-                } className='border border-primaryColor-500 p-2 rounded-md h-32'></textarea>
+                } className={`border p-2 rounded-md h-32 ${
+                       errors.message ? 'focus:ring-red-500 border-red-500' : 'focus:ring-primaryColor-500'
+                      }`} ></textarea>
                 {errors.message && <span className='text-sm text-red-600 '>{errors.message}</span>}
                 
                 <Buttons type= {'submit'}>Send Message</Buttons>
